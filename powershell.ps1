@@ -22,4 +22,11 @@ $f.ShowDialog();
 $chooser=$f.SelectedPath;
 Echo-Host "You chose $chooser";
 #del fchooser
-Start-Sleep 3;
+Start-Sleep 2;
+$score=1;
+Clear-Host;
+Echo-Host "DO NOT PLAY WITH EARBUDS OR HEADPHONES IN. I AM NOT RESPONSIBLE FOR ANY HEARING DAMAGE.";
+Echo-Host "";
+Echo-Host "PLAY AT YOUR OWN RISK OF BEING CAUGHT BY A TEACHER. I AM NOT RESPONSIBLE FOR ANYONE WHO GETS IN TROUBLE!";
+
+
