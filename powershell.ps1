@@ -1,6 +1,7 @@
 #Echo off
 $host.ui.RawUI.ForegroundColor="Green";
 $host.ui.RawUI.BackgroundColor="Black";
+Clear-Host;
 $cd=Get-Location;
 $host.ui.RawUI.WindowTitle="The Riddle Quiz Version 2.1";
 #Do some fancy stuff that I am too lazy to do
@@ -47,4 +48,30 @@ if($id -eq "Sack")
     Write-Host "Dude seriously, just press enter to start the program that I made!";
     Pause > $null;
   }
+}
+if($id -eq "Carter")
+{
+  Write-Host "bruh";
+  Start-Sleep 1;
+  Clear-Host;
+}
+if($id -eq "Jake")
+{
+  while($true)
+  {
+    start Powershell;
+  }
+}
+:asian
+while($true)
+{
+if($id -eq "Alissa")
+{
+  Write-Host "Difficulty increased to Asian Mode";
+  Start-Sleep 3;
+  Clear-Host;
+  break asian;
+  #pointless code is pointless, so it was moved to the top
+}
+
 }
