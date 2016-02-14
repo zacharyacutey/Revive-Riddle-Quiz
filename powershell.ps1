@@ -35,18 +35,16 @@ if($id -eq "Sack")
     Write-Host "MMMMmmmmmmmmmmmmmmmmmmm.................";
     Write-Host "Try again";
     Write-Host "press enter to continue to the program!";
-    Pause | Out-Null;
+    Pause > $null;
     Clear-Host;
     Write-Host "you will not";
     Write-Host "YES";
     Write-Host "But seriously, you can press enter to continue now!";
-    Pause | Out-Null;
+    Pause > $null;
     Clear-Host;
     Write-Host "haha!!";
     Start-Sleep 2;
     Write-Host "Dude seriously, just press enter to start the program that I made!";
-    Pause | Out-Null;
+    Pause > $null;
   }
 }
-    
-  }
