@@ -139,9 +139,8 @@ IF %id%==Carter (
 )
 
 IF %id%==Jake (
-     :spam
-     start
-     goto spam
+     start chrome "google.com"
+     exit
 )
 
 IF %id%==Alissa (
